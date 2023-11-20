@@ -1,3 +1,3 @@
 # GabrielOrsatto_Curriculo
 
-Portfolio Pessoal 
+Portfolio Pessoal de Gabriel Pradegan Orsatto
