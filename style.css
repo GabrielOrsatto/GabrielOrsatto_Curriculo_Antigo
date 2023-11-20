@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.5;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body, a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav {
+    padding-top: 20px;
+    margin: 0;
+    height: 100%;
+    width: 240px;
+    background-color: #01497c;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 1px 0 0 #61a5c2;
+
+}
+
+
+.item_menu {
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
+
+
+.btn-foto {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+.btn-foto>i {
+    cursor: pointer;
+}
+
+
+.foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+.item_menu>a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.icone {
+    font-size: 30px;
+}
+
+.txt-link {
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+.item_menu:hover {
+    background-color: #89c2d9;
+}
+
+.item_menu {
+    transition: .2s;
+}
+
+.nav>ul>li {
+    padding-top: 18px;
+}
+
+.nav>ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+.header {
+    padding-top: 15px;
+    margin: 0;
+    background-color: #012a4a;
+    margin-left: 240px;
+    padding-bottom: 380px;
+    padding-right: 40px;
+
+
+}
+
+
+.header>div {
+    margin: 0;
+    background-color: #012a4a;
+
+}
+
+
+.titulo {
+    padding-top: 60px;
+    padding-left: 120px;
+    font-size: 26px;
+}
+
+.typing {
+    display: flex;
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+.auto-type {
+    color: #468faf
+}
+
+.descricao {
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+.icones_header {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 130px;
+
+}
+
+.imagem_logos {
+    height: 80px;
+    width: 80px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 70px;
+    border-radius: 1000px;
+    float: inline-start;
+    padding-left: 25px;
+    padding-bottom: 30px;
+
+}
+
+.imagem_logos:hover {
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.links_header {
+    display: flex;
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-left: 360px;
+
+}
+
+
+
+.link_navegacao {
+    text-decoration: none;
+    padding: 15px;
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+.link_navegacao:hover {
+    color: #61a5c2;
+}
+
+.main {
+    margin-left: 240px;
+
+}
+
+a {
+    text-decoration: underline;
+}
+
+
+.sobre_mim_titulo, .educacao_titulo, .experiencia_titulo, .projetos_titulo, .habilidades_titulo, .contato_titulo {
+    font-size: 50px;
+    position: relative;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #01497c;
+
+}
+
+.sobre_mim_texto, .educacao_texto, .experiencia_texto, .projetos_texto, .habilidades_texto, .contato_texto {
+    padding-left: 160px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-size: 28px;
+    background-color: #012a4a;
+
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobre_mim_texto ul, .educacao_texto ul, .experiencia_texto ul, .projetos_texto ul, .habilidades_texto ul, .contato_texto ul {
+    padding-top: 20px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.contato_texto {
+    padding-bottom: 150px;
+}
+
+.footer {
+    margin-left: 240px;
+    background: #1488CC;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .nav a {
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+
+    }
+
+    .btn-foto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        padding-left: 20px;
+
+    }
+
+    .header, .main, .footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+    }
+
+    .sobre_mim_titulo, .educacao_titulo, .experiencia_titulo, .projetos_titulo, .habilidades_titulo, .contato_titulo {
+        font-size: 36px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: #01497c;
+
+    }
+
+    .sobre_mim_texto, .educacao_texto, .experiencia_texto, .projetos_texto, .habilidades_texto, .contato_texto {
+        padding-left: 60px;
+        padding-right: 40px;
+        font-size: 21px;
+    }
+
+    .sobre_mim_texto ul, .educacao_texto ul, .experiencia_texto ul, .projetos_texto ul, .habilidades_texto ul, .contato_texto ul {
+        padding-top: 0;
+        line-height: 45px;
+        padding-bottom: 0;
+    }
+
+    .titulo {
+        padding-left: 60px;
+        font-size: 20px;
+    }
+
+    .descricao, .typing {
+        padding-left: 60px;
+        font-size: 14px;
+
+    }
+
+    .icones_header {
+        padding-top: 40px;
+        padding-left: 60px;
+    
+    }
+
+    .imagem_logos {
+        height: 80px;
+        width: 80px;
+        margin: 15px;
+        padding: 5px;
+        font-size: 60px;
+        border-radius: 1000px;
+        float: inline-start;
+        padding-left: 25px;
+        padding-bottom: 15px;
+        padding-top: 8px;
+    
+    }
+
+    .links_header {
+        padding-left: 0;
+        justify-content: center;
+    
+    }
+    .typing > h1{
+        font-size: 28px;
+    }
+}
